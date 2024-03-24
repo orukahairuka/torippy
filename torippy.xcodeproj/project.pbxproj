@@ -3,80 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BA1C1372BB03087009C007E /* torippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1C1362BB03087009C007E /* torippyApp.swift */; };
-		3BA1C1392BB03087009C007E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1C1382BB03087009C007E /* ContentView.swift */; };
-		3BA1C13B2BB03089009C007E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1C13A2BB03089009C007E /* Assets.xcassets */; };
-		3BA1C13E2BB03089009C007E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1C13D2BB03089009C007E /* Preview Assets.xcassets */; };
+		9FC5F4D4CECF168884081052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B94331C5D6FF26EE1632D8 /* ContentView.swift */; };
+		A42D44D4DADBAC3AA51AFF7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FFD405A1A4D1AB5C13FA89 /* Preview Assets.xcassets */; };
+		B74D367F932D15866BFE277A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAA53223B29755517A0AF98 /* Assets.xcassets */; };
+		C185637A4BBFE62DDB76865C /* torippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E8DE046E533B242E8EB037 /* torippyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BA1C1332BB03087009C007E /* torippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = torippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA1C1362BB03087009C007E /* torippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torippyApp.swift; sourceTree = "<group>"; };
-		3BA1C1382BB03087009C007E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3BA1C13A2BB03089009C007E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BA1C13D2BB03089009C007E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E2FAB621455134B351D1F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23FFD405A1A4D1AB5C13FA89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69B94331C5D6FF26EE1632D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		769CDCD63670223A0FC421C9 /* torippy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = torippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEA6AFAD8B68A8DD6D90D5D /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		E8E8DE046E533B242E8EB037 /* torippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torippyApp.swift; sourceTree = "<group>"; };
+		EFAA53223B29755517A0AF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		3BA1C1302BB03087009C007E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		3BA1C12A2BB03087009C007E = {
+		3C1EFC36262B48D9F41589EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BA1C1352BB03087009C007E /* torippy */,
-				3BA1C1342BB03087009C007E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		3BA1C1342BB03087009C007E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3BA1C1332BB03087009C007E /* torippy.app */,
+				769CDCD63670223A0FC421C9 /* torippy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BA1C1352BB03087009C007E /* torippy */ = {
+		51127BDA00D99F07D3D84273 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3BA1C1362BB03087009C007E /* torippyApp.swift */,
-				3BA1C1382BB03087009C007E /* ContentView.swift */,
-				3BA1C13A2BB03089009C007E /* Assets.xcassets */,
-				3BA1C13C2BB03089009C007E /* Preview Content */,
-			);
-			path = torippy;
-			sourceTree = "<group>";
-		};
-		3BA1C13C2BB03089009C007E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				3BA1C13D2BB03089009C007E /* Preview Assets.xcassets */,
+				23FFD405A1A4D1AB5C13FA89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C38ECF3906F85510A61AF33 = {
+			isa = PBXGroup;
+			children = (
+				E1484D2EE6CED52EBAB7CDD3 /* torippy */,
+				3C1EFC36262B48D9F41589EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1484D2EE6CED52EBAB7CDD3 /* torippy */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA6AFAD8B68A8DD6D90D5D /* .gitignore */,
+				EFAA53223B29755517A0AF98 /* Assets.xcassets */,
+				69B94331C5D6FF26EE1632D8 /* ContentView.swift */,
+				0E2FAB621455134B351D1F72 /* Info.plist */,
+				E8E8DE046E533B242E8EB037 /* torippyApp.swift */,
+				51127BDA00D99F07D3D84273 /* Preview Content */,
+			);
+			path = torippy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BA1C1322BB03087009C007E /* torippy */ = {
+		7BE12203D8F48432B9287E23 /* torippy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BA1C1412BB03089009C007E /* Build configuration list for PBXNativeTarget "torippy" */;
+			buildConfigurationList = 8EBD04BA28B50456D42ED318 /* Build configuration list for PBXNativeTarget "torippy" */;
 			buildPhases = (
-				3BA1C12F2BB03087009C007E /* Sources */,
-				3BA1C1302BB03087009C007E /* Frameworks */,
-				3BA1C1312BB03087009C007E /* Resources */,
+				32CA2EBB907CD02EC3D7A75C /* Sources */,
+				47479BB414B3AAAFE169141B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,75 +77,107 @@
 			);
 			name = torippy;
 			productName = torippy;
-			productReference = 3BA1C1332BB03087009C007E /* torippy.app */;
+			productReference = 769CDCD63670223A0FC421C9 /* torippy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BA1C12B2BB03087009C007E /* Project object */ = {
+		B4B4A82767890A15F7EC1A6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					3BA1C1322BB03087009C007E = {
-						CreatedOnToolsVersion = 15.0.1;
+					7BE12203D8F48432B9287E23 = {
+						DevelopmentTeam = XXXXXXXXXX;
 					};
 				};
 			};
-			buildConfigurationList = 3BA1C12E2BB03087009C007E /* Build configuration list for PBXProject "torippy" */;
+			buildConfigurationList = E32924B179A854FEC69719ED /* Build configuration list for PBXProject "torippy" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
-			mainGroup = 3BA1C12A2BB03087009C007E;
-			productRefGroup = 3BA1C1342BB03087009C007E /* Products */;
+			mainGroup = 7C38ECF3906F85510A61AF33;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BA1C1322BB03087009C007E /* torippy */,
+				7BE12203D8F48432B9287E23 /* torippy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BA1C1312BB03087009C007E /* Resources */ = {
+		47479BB414B3AAAFE169141B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA1C13E2BB03089009C007E /* Preview Assets.xcassets in Resources */,
-				3BA1C13B2BB03089009C007E /* Assets.xcassets in Resources */,
+				B74D367F932D15866BFE277A /* Assets.xcassets in Resources */,
+				A42D44D4DADBAC3AA51AFF7C /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BA1C12F2BB03087009C007E /* Sources */ = {
+		32CA2EBB907CD02EC3D7A75C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA1C1392BB03087009C007E /* ContentView.swift in Sources */,
-				3BA1C1372BB03087009C007E /* torippyApp.swift in Sources */,
+				9FC5F4D4CECF168884081052 /* ContentView.swift in Sources */,
+				C185637A4BBFE62DDB76865C /* torippyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3BA1C13F2BB03089009C007E /* Debug */ = {
+		28CDB9973B5E4A2FF4739FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = torippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.torippy.torippy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F8288402110D630499B151B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = torippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.torippy.torippy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F2C19F364947D78FEE2B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -179,17 +204,18 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -197,25 +223,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		3BA1C1402BB03089009C007E /* Release */ = {
+		D0FCAE0218312CE39270C2D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -242,11 +269,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -254,96 +282,39 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3BA1C1422BB03089009C007E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"torippy/Preview Content\"";
-				DEVELOPMENT_TEAM = 922N7TF68N;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.torippy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3BA1C1432BB03089009C007E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"torippy/Preview Content\"";
-				DEVELOPMENT_TEAM = 922N7TF68N;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.torippy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BA1C12E2BB03087009C007E /* Build configuration list for PBXProject "torippy" */ = {
+		8EBD04BA28B50456D42ED318 /* Build configuration list for PBXNativeTarget "torippy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA1C13F2BB03089009C007E /* Debug */,
-				3BA1C1402BB03089009C007E /* Release */,
+				7F8288402110D630499B151B /* Debug */,
+				28CDB9973B5E4A2FF4739FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		3BA1C1412BB03089009C007E /* Build configuration list for PBXNativeTarget "torippy" */ = {
+		E32924B179A854FEC69719ED /* Build configuration list for PBXProject "torippy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BA1C1422BB03089009C007E /* Debug */,
-				3BA1C1432BB03089009C007E /* Release */,
+				87F2C19F364947D78FEE2B0F /* Debug */,
+				D0FCAE0218312CE39270C2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3BA1C12B2BB03087009C007E /* Project object */;
+	rootObject = B4B4A82767890A15F7EC1A6C /* Project object */;
 }
